@@ -1,10 +1,10 @@
 package model;
 
-public class TeamAcconnodation {
+public class TeamAccommodation {
 	int teamID;
 	int accomID;
-	
-	public TeamAcconnodation(int teamID, int accomID) {
+
+	public TeamAccommodation(int teamID, int accomID) {
 		super();
 		this.teamID = teamID;
 		this.accomID = accomID;
@@ -25,5 +25,5 @@ public class TeamAcconnodation {
 	public void setAccomID(int accomID) {
 		this.accomID = accomID;
 	}
-	
+
 }
