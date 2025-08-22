@@ -13,7 +13,7 @@ public class User {
 		this.email = email;
 		this.password = password;
 	}
-
+	
 	public int getUserID() {
 		return userID;
 	}
@@ -45,6 +45,4 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-
 }
