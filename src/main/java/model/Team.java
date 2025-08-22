@@ -7,7 +7,7 @@ public class Team {
 	int teamID;
 	String name;
 	List<String> memberList;
-	
+
 	public Team(int teamID, String name, String[] memberList) {
 		super();
 		this.teamID = teamID;
@@ -38,5 +38,5 @@ public class Team {
 	public void setMemberList(List<String> memberList) {
 		this.memberList = memberList;
 	}
-	
+
 }
