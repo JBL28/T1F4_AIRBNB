@@ -25,5 +25,5 @@ public class TeamAcconnodation {
 	public void setAccomID(int accomID) {
 		this.accomID = accomID;
 	}
-	
+
 }

@@ -16,7 +16,7 @@ public class libTest {
     public static void main(String[] args) {
         // HikariCP 설정
         HikariConfig config = new HikariConfig();
-        config.setJdbcUrl("jdbc:mysql://localhost:3306/testdb"); // DB명(testdb) → 실제 DB명으로 교체
+        config.setJdbcUrl("jdbc:mysql://localhost:3306/airbnb_clone"); // DB명(testdb) → 실제 DB명으로 교체
         config.setUsername("root"); // 사용자 계정
         config.setPassword("1234"); // 비밀번호
         config.setMaximumPoolSize(5);

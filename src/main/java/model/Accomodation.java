@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class Accomodation {
 
 	int accomID;
-	String accomCategory;
+	AccomCategoryEnum accomCategory;
 	int bedrooms;
 	int beds;
 	int bathrooms;
@@ -15,7 +15,7 @@ public class Accomodation {
 	
 	
 	
-	public Accomodation(int accomID, String accomCategory, int bedrooms, int beds, int bathrooms, BigDecimal price,
+	public Accomodation(int accomID, AccomCategoryEnum accomCategory, int bedrooms, int beds, int bathrooms, BigDecimal price,
 			BuildingCategoryEnum buildingCategory, int amenitiesCategory) {
 		super();
 		this.accomID = accomID;
@@ -36,11 +36,11 @@ public class Accomodation {
 		this.accomID = accomID;
 	}
 
-	public String getAccomCategory() {
+	public AccomCategoryEnum getAccomCategory() {
 		return accomCategory;
 	}
 
-	public void setAccomCategory(String accomCategory) {
+	public void setAccomCategory(AccomCategoryEnum accomCategory) {
 		this.accomCategory = accomCategory;
 	}
 
