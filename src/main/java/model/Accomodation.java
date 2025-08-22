@@ -13,8 +13,6 @@ public class Accomodation {
 	BuildingCategoryEnum buildingCategory;
 	int amenitiesCategory;
 
-
-
 	public Accomodation(int accomID, AccomCategoryEnum accomCategory, int bedrooms, int beds, int bathrooms, BigDecimal price,
 			BuildingCategoryEnum buildingCategory, int amenitiesCategory) {
 		super();
